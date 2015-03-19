@@ -1,5 +1,12 @@
 # Arabic betaCode
 
+## Some updates to the scheme (2015-03-09:10-21)
+
+Done to avoid issues with Alpheios translation alignment, which automatically splits supplied texts into words. Essentially, combinations with "." and ":" are replaced with "\*" and "=" respectively.
+
+* **=t** is *tāʾ marbūṭaŧ*
+* **\*s** is *ṣād* (and the same for other letters transliterated with dots)
+
 <center>[a better formatted version](http://maximromanov.github.io/2015/02-07.html)</center>
 
  Although both Windows and Mac OS now support Arabic, it is still quite difficult to type and edit Arabic texts. It is particularly frustrating to edit and manipulate fully vocalized texts, since most fonts either render “short vowels” (*ḥarakāt*) invisible, or do not render them properly. Because of the “stacking,” i.e. “short vowels” being placed on top of letters and on top of each other, it becomes impossible to *edit* texts and one is often forced to go into delete-and-retype mode (and there is still no guarantee, because of visual issues, that all the letters and “short vowels” will actually be in the right order). **betaCode** can make it easy to type fully-vocalized Arabic texts on any machine through the use of simple character combinations and automatic rendering into various transliteration schemes and the Arabic script (scroll below for examples). 
@@ -21,7 +28,7 @@
 | **t** | t | *tāʾ* |
 | **\_t** | ṯ | *thāʾ* |
 | **^g, j** | ǧ | *jīm* |
-| **\*h, .h** | ḥ | *ḥāʾ* |
+| **\*h** | ḥ | *ḥāʾ* |
 | **\_h** | ḫ | *khāʾ* |
 | **d** | d | *dāl* |
 | **\_d** | ḏ | *dhāl* |
@@ -29,14 +36,14 @@
 | **z** | z | *zayn* |
 | **s** | s | *sīn* |
 | **^s** | š | *shīn* |
-| **\*s, .s** | ṣ | *ṣād* |
-| **\*d, .d** | ḍ | *ḍād* |
-| **\*t, .t** | ṭ | *ṭāʾ* |
-| **\*z, .z** | ẓ | *ẓāʾ* |
+| **\*s** | ṣ | *ṣād* |
+| **\*d** | ḍ | *ḍād* |
+| **\*t** | ṭ | *ṭāʾ* |
+| **\*z** | ẓ | *ẓāʾ* |
 | **`** | ʿ | *‘ayn* |
-| **\*g, .g** | ġ | *ghayn* |
+| **\*g** | ġ | *ghayn* |
 | **f** | f | *fāʾ* |
-| **\*k, .k, q** | ḳ | *qāf* |
+| **\*k, q** | ḳ | *qāf* |
 | **k** | k | *kāf* |
 | **l** | l | *lām* |
 | **m** | m | *mīm* |
@@ -52,7 +59,7 @@
 |----------|-----------------|---------------|
 | **'** | ʾ | *ḥamzaŧ* |
 | **/a** | á | *alif maqṣūraŧ* |
-| **:t** | ŧ | *tāʾ marbūṭaŧ* |
+| **=t** | ŧ | *tāʾ marbūṭaŧ* |
 
 ## Vowels
 
@@ -62,9 +69,9 @@
 | **u** | u | *ḍammaŧ* |
 | **i** | i | *kasraŧ* |
 | **a** | a | *fatḥaŧ* |
-| **.n** | ȵ | *n* of *tanwīn* |
-| **.a** | å | *silent alif* |
-| **.w** | ů | *silent wāw* |
+| **\*n** | ȵ | *n* of *tanwīn* |
+| **\*a** | å | *silent alif* |
+| **\*w** | ů | *silent wāw* |
 | **?u** | ủ | final *ḍammaŧ* \* |
 | **?i** | ỉ | final *kasraŧ* \* |
 | **?a** | ả | final *fatḥaŧ* \* |
@@ -77,12 +84,11 @@ preceded (if necessary) with a technical character that is similar to a diacriti
 
 #### *General*
 * **\_** (underscore), if a letter can be transliterated with *macron*/*breve* below or above (*ā*, *ṯ*, *ḫ*, *ḏ*, *ū*, *ī*)
-* **.** (period), or  <b>\*</b> (asterisk), if a letter can be transliterated transliterated with *dot* below or above (*ḥ*, *ṣ*, *ḍ*, *ṭ*, *ẓ*, *ġ*, *ḳ*)
+* **\*** (asterisk), if a letter can be transliterated transliterated with *dot* below or above (*ḥ*, *ṣ*, *ḍ*, *ṭ*, *ẓ*, *ġ*, *ḳ*)
 * **^** (caret), if a letter can be transliterated with *caron* (*ǧ*, *š*)
 
 #### *Specifics*
 * attached prepositions/conjunctions and pronominal suffixes must be separated with “-” (mostly relevant for text alignment, treebanking,  and general readability):
-	* ``` bi-Llah?i  ```
 	* ``` fa-_dahaba ```
 * add “?” before “optional” final vowels that are usually dropped in transliteration and pronounciation (mostly relevant  for transliteration):
 	* ``` bi-Llah?i  ```, but not:
@@ -91,13 +97,13 @@ preceded (if necessary) with a technical character that is similar to a diacriti
 	* ``` `_amma:t+u Ba.gd_ada ```, but:
 	* ``` al-`_amma:tu f_i Ba.gd_ada ```
 * transliterating *tanwīn*:
-	* ```.n```
-		* ```?u.n```
-		* ```?i.n```
-		* ```?a.n```
+	* ```*n```
+		* ```?u*n```
+		* ```?i*n```
+		* ```?a*n```
 * silent *wāw* and *alif*:
-	* `.w` (`Amr?u.n.w`, for <span="arabic">عَمْرٌو</span>)
-	* `.a` (```wa-fa`al_u.a```, for <span="arabic">وَفَعَلُوا</span>)
+	* `*w` (`Amr?u*n*w`, for <span="arabic">عَمْرٌو</span>)
+	* `*a` (```wa-fa`al_u*a```, for <span="arabic">وَفَعَلُوا</span>)
 
 ## Running the converter
 * (Python 3.xx must be installed on the machine)
@@ -114,29 +120,29 @@ preceded (if necessary) with a technical character that is similar to a diacriti
 
 **NB**: These are examples of converting betaCode to full transliteration and Arabic script. The very last paragraph showcases conversion of *ḥamzaŧ* in different positions.
 
-q\_ala 'ab\_u Mas\`\_ud?i.n :: 'an\_a qad sami\`tu h~a\_d\_a min ras\_ul?i All~ah?i ( .sl\`m )
+q\_ala 'ab\_u Mas\`\_ud?i\*n :: 'an\_a qad sami\`tu h~a\_d\_a min ras\_ul?i All~ah?i ( \*sl\`m )
 
-.hadda\_ta-n\_a \`Amr?u.w bn?u R\_afi\`?i.n , .hadda\_ta-n\_a \`Abd?u All~ah?i bn?u al-Mub\_arak?i , \`an Mu.hammad?i bn?i 'Is.h\_aq?a , \`an Mu.hammad?i bn?i ^Ga\`far?i.n , \`an \`Ubayd?i All~ah?i bn?i \`Abd?i All~ah?i bn?i \`Umar?a , \`an 'Ab\_i-hi , \`an?i al-Nabiyy?i ( .sl\`m ) na.hwa-hu
+\*hadda\_ta-n\_a \`Amr?u\*w bn?u R\_afi\`?i\*n , \*hadda\_ta-n\_a \`Abd?u All~ah?i bn?u al-Mub\_arak?i , \`an Mu\*hammad?i bn?i 'Is\*h\_aq?a , \`an Mu\*hammad?i bn?i ^Ga\`far?i\*n , \`an \`Ubayd?i All~ah?i bn?i \`Abd?i All~ah?i bn?i \`Umar?a , \`an 'Ab\_i-hi , \`an?i al-Nabiyy?i ( \*sl\`m ) na\*hwa-hu
 
-'a\_hbara-n\_a Qutayba:t?u q\_ala , .hadda\_ta-n\_a Sufy\_an?u , \`an Ya.hy/a bn?i Sa\`\_id?i.n , \`an 'Ab\_i Bakr?i bn?i Mu.hammad?i.n , \`an \`Umar?a bn?i \`Abd?i al-\`Az\_iz?i , \`an 'Ab\_i Bakr?i bn?i \`Abd?i al-Ra.hm~an?i bn?i al-.H\_ari\_t?i bn?i Hi^s\_am?i.n , \`an 'Ab\_i Hurayra:t?a mi\_tla-hu
+'a\_hbara-n\_a Qutayba:t?u q\_ala , \*hadda\_ta-n\_a Sufy\_an?u , \`an Ya\*hy/a bn?i Sa\`\_id?i\*n , \`an 'Ab\_i Bakr?i bn?i Mu\*hammad?i\*n , \`an \`Umar?a bn?i \`Abd?i al-\`Az\_iz?i , \`an 'Ab\_i Bakr?i bn?i \`Abd?i al-Ra\*hm~an?i bn?i al-\*H\_ari\_t?i bn?i Hi^s\_am?i\*n , \`an 'Ab\_i Hurayra:t?a mi\_tla-hu
 
-**Ta.hw\_il?u al-.hamza:t?i ( kalim\_at?u.n mufrada:t?u.n )**
+**Ta\*hw\_il?u al-\*hamza:t?i ( kalim\_at?u\*n mufrada:t?u\*n )**
 
-'amr?u.n 'uns?u.n 'ins?u.n '\_im\_an?u.n
-'\_aya:t?u.n '\_amana mas'ala:t?u.n sa'ala ra's?u.n qur'\_an?u.n ta'\_amara
-\_di'b?u.n as'ila:t?u.n q\_ari'i-hi su'l?u.n mas'\_ul?u.n
-tak\_afu'u-hu su'ila q\_ari'i-hi \_di'\_ab?u.n ra'\_is?u.n
-bu'isa ru'\_uf?u.n ra'\_uf?u.n su'\_al?u.n mu'arri\_h?u.n
-abn\_a'a-hu abn\_a'u-hu abn\_a'i-hi ^say'?a.n \_ha.t\_i'a:t?u.n
-.daw'u-hu .d\_u'u-hu .daw'a-hu .daw'i-hi mur\_u'a:t?u.n
-'abn\_a'i-hi bar\_i'u-hu s\_u'ila f\_il?u.n f\_ann?u.n f\_unn?u.n
-s\_a'ala fu'\_ad?u.n ^surak\_a'u-hu ri'\_asa:t?u.n tahni'a:t?u.n
-daf\_a'a:t?u.n .taff\_a'a:t?u.n ta'r\_i\_h?u.n fa'r?u.n
-^say'?u.n ^say'?i.n ^say'?a.n  .daw'?u.n .daw'?i.n .daw'?a.n
-juz'?u.n  juz'?i.n  juz'?a.n mabda'?u.n mabda'?i.n mabda'?a.n
-naba'a q\_ari'?u.n tak\_afu'?u.n tak\_afu'?i.n tak\_afu'?a.n
-abn\_a'u abn\_a'i abn\_a'a jar\_i'?u.n maqr\_u'?u.n .daw'?u.n ^say'?u.n juz'?u.n
-\`ulam\_a'u al-\`ulam\_a'i al-\`ulam\_a'a \`Amr?u.n.w wa-fa\`al\_u.a
+'amr?u\*n 'uns?u\*n 'ins?u\*n '\_im\_an?u\*n
+'\_aya:t?u\*n '\_amana mas'ala:t?u\*n sa'ala ra's?u\*n qur'\_an?u\*n ta'\_amara
+\_di'b?u\*n as'ila:t?u\*n q\_ari'i-hi su'l?u\*n mas'\_ul?u\*n
+tak\_afu'u-hu su'ila q\_ari'i-hi \_di'\_ab?u\*n ra'\_is?u\*n
+bu'isa ru'\_uf?u\*n ra'\_uf?u\*n su'\_al?u\*n mu'arri\_h?u\*n
+abn\_a'a-hu abn\_a'u-hu abn\_a'i-hi ^say'?a\*n \_ha\*t\_i'a:t?u\*n
+\*daw'u-hu \*d\_u'u-hu \*daw'a-hu \*daw'i-hi mur\_u'a:t?u\*n
+'abn\_a'i-hi bar\_i'u-hu s\_u'ila f\_il?u\*n f\_ann?u\*n f\_unn?u\*n
+s\_a'ala fu'\_ad?u\*n ^surak\_a'u-hu ri'\_asa:t?u\*n tahni'a:t?u\*n
+daf\_a'a:t?u\*n \*taff\_a'a:t?u\*n ta'r\_i\_h?u\*n fa'r?u\*n
+^say'?u\*n ^say'?i\*n ^say'?a\*n  \*daw'?u\*n \*daw'?i\*n \*daw'?a\*n
+juz'?u\*n  juz'?i\*n  juz'?a\*n mabda'?u\*n mabda'?i\*n mabda'?a\*n
+naba'a q\_ari'?u\*n tak\_afu'?u\*n tak\_afu'?i\*n tak\_afu'?a\*n
+abn\_a'u abn\_a'i abn\_a'a jar\_i'?u\*n maqr\_u'?u\*n \*daw'?u\*n ^say'?u\*n juz'?u\*n
+\`ulam\_a'u al-\`ulam\_a'i al-\`ulam\_a'a \`Amr?u\*n\*w wa-fa\`al\_u\*a
 
 ## betaCode converted into one-to-one translit
 
@@ -206,9 +212,9 @@ abnāʾu abnāʾi abnāʾa ǧarīʾủȵ maḳrūʾủȵ ḍawʾủȵ šayʾủ�
 
 NB: This is an example of the English text with terms, names and toponyms given in betaCode and automatically converted into different transliteration flavors (exerpts are from Brill’s *Encyclopaedia of Islam*).
 
-Dima^s.k, Dima^s.k al-^S\_am or simply al-^S\_am , (Lat. Damascus, Fr. Damas) is the largest city of Syria. It is situated ... very much at the same latitude as Ba.gd\_ad and F\_as, at an altitude of nearly 700 metres, on the edge of the desert at the foot of ^Gabal .K\_asiy\_un.
+Dima^s\*k, Dima^s\*k al-^S\_am or simply al-^S\_am , (Lat. Damascus, Fr. Damas) is the largest city of Syria. It is situated ... very much at the same latitude as Ba\*gd\_ad and F\_as, at an altitude of nearly 700 metres, on the edge of the desert at the foot of ^Gabal \*K\_asiy\_un.
 
-al-\_Dahab\_i, ^Sams al-D\_in Ab\_u \`Abd All~ah Mu.hammad b. \`U\_tm\_an b. .K\_aym\_a.z b. \`Abd All~ah al-Turkum\_an\_i al-F\_ari.k\_i al-Dima^s.k\_i al-^S\_afi\`\_i, an Arab historian and theologian, was born at Damascus or at Mayy\_afari.k\_in on 1 or 3 Rab\_i\` II (according to al-Kutub\_i, in Rab\_i\` I) 673/5 or 7 October 1274, and died at Damascus, according to al-Subk\_i and al-Suy\_u.t\_i, in the night of Sunday-Monday on 3 \_D\_u al-.Ka\`da:t 748/4 February 1348, or, according to A.hmad b. \`Iy\_as, in 753/1352-3. He was buried at the B\_ab al-.Sa.g\_ir.
+al-\_Dahab\_i, ^Sams al-D\_in Ab\_u \`Abd All~ah Mu\*hammad b. \`U\_tm\_an b. \*K\_aym\_a\*z b. \`Abd All~ah al-Turkum\_an\_i al-F\_ari\*k\_i al-Dima^s\*k\_i al-^S\_afi\`\_i, an Arab historian and theologian, was born at Damascus or at Mayy\_afari\*k\_in on 1 or 3 Rab\_i\` II (according to al-Kutub\_i, in Rab\_i\` I) 673/5 or 7 October 1274, and died at Damascus, according to al-Subk\_i and al-Suy\_u\*t\_i, in the night of Sunday-Monday on 3 \_D\_u al-\*Ka\`da:t 748/4 February 1348, or, according to A\*hmad b. \`Iy\_as, in 753/1352-3. He was buried at the B\_ab al-\*Sa.g\_ir.
 
 ### betaCode converted into one-to-one translit
 

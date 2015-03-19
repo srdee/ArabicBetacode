@@ -1,0 +1,33 @@
+############################################################
+## hadithID::     nasai37_1141060
+## Completed by:: ADDYOURNAME
+## Finished::     NO/YES
+
+############################################################
+## ArabicInitial
+أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ قَالَ أَنْبَأَنَا عَبْدَةُ قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ إِسْحَاقَ عَنِ الزُّهْرِيِّ عَنْ طَلْحَةَ بْنِ عَبْدِ اللَّهِ بْنِ عَوْفٍ عَنْ سَعِيدِ بْنِ زَيْدٍ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ مَنْ قَاتَلَ دُونَ مَالِهِ فَهُوَ شَهِيدٌ
+
+############################################################
+## betaCodeAuto
+'a_hbaran_a 'is*h_aqu bnu 'ibr_ah_ima q_ala 'anba'an_a `abda=tu q_ala *hadda_tan_a mu*hammadu bnu 'is*h_aqa `ani alzzuhr_iyi `an *tal*ha=ta bni `abdi allahi bni `awfi*n `an sa`_idi bni zaydi*n `ani alnnab_iyi *sl`m q_ala man q_atala d_una m_alihi fah_ua ^sah_idu*n
+
+############################################################
+## betaCodeManual
+'a_hbaran_a 'is.h_aqu bnu 'ibr_ah_ima q_ala 'anba'an_a `abda:tu q_ala .hadda_tan_a mu.hammadu bnu 'is.h_aqa `ani alzzuhr_iyi `an .tal.ha:ta bni `abdi allahi bni `awfi.n `an sa`_idi bni zaydi.n `ani alnnab_iyi .sl`m q_ala man q_atala d_una m_alihi fah_ua ^sah_idu.n
+
+############################################################
+## betaCodeManual>Translit
+ʾaḫbaranā ʾis.hāḳu bnu ʾibrāhīma ḳāla ʾanbaʾanā ʿabda:tu ḳāla .haddaṯanā mu.hammadu bnu ʾis.hāḳa ʿani alzzuhrīyi ʿan .tal.ha:ta bni ʿabdi allahi bni ʿawfi.n ʿan saʿīdi bni zaydi.n ʿani alnnabīyi .slʿm ḳāla man ḳātala dūna mālihi fahūa šahīdu.n
+
+############################################################
+## betaCodeManual>Arabic
+أَخْبَرَنَا إِس.هَاقُ بْنُ إِبْرَاهِيمَ قَالَ أَنْبَأَنَا عَبْدَ:تُ قَالَ .هَدَّثَنَا مُ.هَمَّدُ بْنُ إِس.هَاقَ عَنِ أَلْزُّهْرِييِ عَنْ .تَل.هَ:تَ بْنِ عَبْدِ أَلَّهِ بْنِ عَوْفِ.نْ عَنْ سَعِيدِ بْنِ زَيْدِ.نْ عَنِ أَلْنَّبِييِ .سْلْعْمْ قَالَ مَنْ قَاتَلَ دُونَ مَالِهِ فَهُوَ شَهِيدُ.نْ
+
+############################################################
+## TranslationBetaCode
+Type your translation on this line
+
+############################################################
+## TranslationTranslit
+Type your translation on this line
+

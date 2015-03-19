@@ -1,0 +1,33 @@
+############################################################
+## hadithID::     tirmidhi09_708520
+## Completed by:: ADDYOURNAME
+## Finished::     NO/YES
+
+############################################################
+## ArabicInitial
+حَدَّثَنَا قُتَيْبَةُ حَدَّثَنَا حَمَّادُ بْنُ زَيْدٍ عَنْ أَيُّوبَ عَنْ عِكْرِمَةَ عَنِ ابْنِ عَبَّاسٍ أَنَّ النَّبِيَّ صلى الله عليه وسلم تَزَوَّجَ مَيْمُونَةَ وَهُوَ مُحْرِمٌ
+
+############################################################
+## betaCodeAuto
+*hadda_tan_a qutayba=tu *hadda_tan_a *hamm_adu bnu zaydi*n `an 'ayy_uba `an `ikrima=ta `ani abni `abb_asi*n 'anna alnnab_iya *sl`m tazawwa^ga maym_una=ta wah_ua mu*hrimu*n
+
+############################################################
+## betaCodeManual
+.hadda_tan_a qutayba:tu .hadda_tan_a .hamm_adu bnu zaydi.n `an 'ayy_uba `an `ikrima:ta `ani abni `abb_asi.n 'anna alnnab_iya .sl`m tazawwa^ga maym_una:ta wah_ua mu.hrimu.n
+
+############################################################
+## betaCodeManual>Translit
+.haddaṯanā ḳutayba:tu .haddaṯanā .hammādu bnu zaydi.n ʿan ʾayyūba ʿan ʿikrima:ta ʿani abni ʿabbāsi.n ʾanna alnnabīya .slʿm tazawwaǧa maymūna:ta wahūa mu.hrimu.n
+
+############################################################
+## betaCodeManual>Arabic
+.هَدَّثَنَا قُتَيْبَ:تُ .هَدَّثَنَا .هَمّادُ بْنُ زَيْدِ.نْ عَنْ أَيّوبَ عَنْ عِكْرِمَ:تَ عَنِ أَبْنِ عَبّاسِ.نْ أَنَّ أَلْنَّبِييَ .سْلْعْمْ تَزَوَّجَ مَيْمُونَ:تَ وَهُوَ مُ.هْرِمُ.نْ
+
+############################################################
+## TranslationBetaCode
+Type your translation on this line
+
+############################################################
+## TranslationTranslit
+Type your translation on this line
+

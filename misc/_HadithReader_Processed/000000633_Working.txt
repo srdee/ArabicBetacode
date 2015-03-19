@@ -1,0 +1,33 @@
+############################################################
+## hadithID::     ibnmajah05_1311830
+## Completed by:: ADDYOURNAME
+## Finished::     NO/YES
+
+############################################################
+## ArabicInitial
+حَدَّثَنَا مُحَمَّدُ بْنَ رُمْحٍ أَنْبَأَنَا اللَّيْثُ بْنُ سَعْدٍ عَنْ نَافِعٍ عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ أَنَّهُ كَانَ إِذَا صَلَّى الْجُمُعَةَ انْصَرَفَ فَصَلَّى سَجْدَتَيْنِ فِي بَيْتِهِ ثُمَّ قَالَ كَانَ رَسُولُ اللَّهِ ـ صلى الله عليه وسلم ـ يَصْنَعُ ذَلِكَ
+
+############################################################
+## betaCodeAuto
+*hadda_tan_a mu*hammadu bna rum*hi*n 'anba'an_a allay_tu bnu sa`di*n `an n_afi`i*n `an `abdi allahi bni `umara 'annahu k_ana 'i_d_a *sall/a al^gumu`a=ta an*sarafa fa*sall/a sa^gdatayni f_i baytihi _tumma q_ala k_ana ras_ulu allahi  *sl`m  ya*sna`u _dalika
+
+############################################################
+## betaCodeManual
+.hadda_tan_a mu.hammadu bna rum.hi.n 'anba'an_a allay_tu bnu sa`di.n `an n_afi`i.n `an `abdi allahi bni `umara 'annahu k_ana 'i_d_a .sall/a al^gumu`a:ta an.sarafa fa.sall/a sa^gdatayni f_i baytihi _tumma q_ala k_ana ras_ulu allahi  .sl`m  ya.sna`u _dalika
+
+############################################################
+## betaCodeManual>Translit
+.haddaṯanā mu.hammadu bna rum.hi.n ʾanbaʾanā allayṯu bnu saʿdi.n ʿan nāfiʿi.n ʿan ʿabdi allahi bni ʿumara ʾannahu kāna ʾiḏā .sallá alǧumuʿa:ta an.sarafa fa.sallá saǧdatayni fī baytihi ṯumma ḳāla kāna rasūlu allahi  .slʿm  ya.snaʿu ḏalika
+
+############################################################
+## betaCodeManual>Arabic
+.هَدَّثَنَا مُ.هَمَّدُ بْنَ رُم.هِ.نْ أَنْبَأَنَا أَلَّيْثُ بْنُ سَعْدِ.نْ عَنْ نَافِعِ.نْ عَنْ عَبْدِ أَلَّهِ بْنِ عُمَرَ أَنَّهُ كَانَ إِذَا .سَلّٰى أَلْجُمُعَ:تَ أَن.سَرَفَ فَ.سَلّٰى سَجْدَتَيْنِ فِي بَيْتِهِ ثُمَّ قَالَ كَانَ رَسُولُ أَلَّهِ  .سْلْعْمْ  يَ.سْنَعُ ذَلِكَ
+
+############################################################
+## TranslationBetaCode
+Type your translation on this line
+
+############################################################
+## TranslationTranslit
+Type your translation on this line
+
